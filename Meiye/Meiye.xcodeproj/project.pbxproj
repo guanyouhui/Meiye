@@ -158,21 +158,6 @@
 		157E371E1BF1D95B00CEFABA /* QueryParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E35951BF1D95A00CEFABA /* QueryParam.m */; };
 		157E371F1BF1D95B00CEFABA /* RefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E35971BF1D95A00CEFABA /* RefreshTableView.m */; };
 		157E37201BF1D95B00CEFABA /* SerialBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E35991BF1D95A00CEFABA /* SerialBase.m */; };
-		157E377C1BF1D95B00CEFABA /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E36011BF1D95A00CEFABA /* LaunchViewController.m */; };
-		157E377D1BF1D95B00CEFABA /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157E36021BF1D95A00CEFABA /* LaunchViewController.xib */; };
-		157E377E1BF1D95B00CEFABA /* TXControllerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E36041BF1D95A00CEFABA /* TXControllerCategory.m */; };
-		157E377F1BF1D95B00CEFABA /* TXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E36061BF1D95A00CEFABA /* TXNavigationController.m */; };
-		157E37801BF1D95B00CEFABA /* TXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E36081BF1D95A00CEFABA /* TXTabBarController.m */; };
-		157E37811BF1D95B00CEFABA /* WechatWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E360A1BF1D95A00CEFABA /* WechatWebViewController.m */; };
-		157E37821BF1D95B00CEFABA /* YundxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E360C1BF1D95A00CEFABA /* YundxViewController.m */; };
-		157E37C01BF1D95B00CEFABA /* CheckObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E366D1BF1D95B00CEFABA /* CheckObject.m */; };
-		157E37C11BF1D95B00CEFABA /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E366F1BF1D95B00CEFABA /* City.m */; };
-		157E37C21BF1D95B00CEFABA /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E36711BF1D95B00CEFABA /* Member.m */; };
-		157E37C31BF1D95B00CEFABA /* MemberService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E36731BF1D95B00CEFABA /* MemberService.m */; };
-		157E37C61BF1D95B00CEFABA /* RegionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E36791BF1D95B00CEFABA /* RegionService.m */; };
-		157E37C71BF1D95B00CEFABA /* CustomEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E36801BF1D95B00CEFABA /* CustomEmptyView.m */; };
-		157E37CA1BF1D95B00CEFABA /* MIntroduceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E36851BF1D95B00CEFABA /* MIntroduceView.m */; };
-		157E37CD1BF1D95B00CEFABA /* RoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E368B1BF1D95B00CEFABA /* RoundButton.m */; };
 		157E37DD1BF1DE6200CEFABA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157E37D11BF1DC0C00CEFABA /* MobileCoreServices.framework */; };
 		157E37DE1BF1DE6D00CEFABA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157E37D31BF1DC1400CEFABA /* AVFoundation.framework */; };
 		157E37DF1BF1DE7100CEFABA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157E37D51BF1DC1900CEFABA /* WebKit.framework */; };
@@ -190,6 +175,21 @@
 		157E37F71BF1DF5D00CEFABA /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 157E37F61BF1DF5D00CEFABA /* libiconv.tbd */; };
 		157E37F91BF1E30500CEFABA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157E37F81BF1E30500CEFABA /* UIKit.framework */; };
 		157E37FB1BF1E30C00CEFABA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157E37FA1BF1E30C00CEFABA /* CoreLocation.framework */; };
+		157E38231BF1EE0600CEFABA /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E37FF1BF1EE0600CEFABA /* LaunchViewController.m */; };
+		157E38241BF1EE0600CEFABA /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157E38001BF1EE0600CEFABA /* LaunchViewController.xib */; };
+		157E38251BF1EE0600CEFABA /* TXControllerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38021BF1EE0600CEFABA /* TXControllerCategory.m */; };
+		157E38261BF1EE0600CEFABA /* TXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38041BF1EE0600CEFABA /* TXNavigationController.m */; };
+		157E38271BF1EE0600CEFABA /* TXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38061BF1EE0600CEFABA /* TXTabBarController.m */; };
+		157E38281BF1EE0600CEFABA /* WechatWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38081BF1EE0600CEFABA /* WechatWebViewController.m */; };
+		157E38291BF1EE0600CEFABA /* YundxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E380A1BF1EE0600CEFABA /* YundxViewController.m */; };
+		157E382A1BF1EE0600CEFABA /* CheckObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E380F1BF1EE0600CEFABA /* CheckObject.m */; };
+		157E382B1BF1EE0600CEFABA /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38111BF1EE0600CEFABA /* City.m */; };
+		157E382C1BF1EE0600CEFABA /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38131BF1EE0600CEFABA /* Member.m */; };
+		157E382D1BF1EE0600CEFABA /* MemberService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38151BF1EE0600CEFABA /* MemberService.m */; };
+		157E382E1BF1EE0600CEFABA /* RegionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38171BF1EE0600CEFABA /* RegionService.m */; };
+		157E382F1BF1EE0600CEFABA /* CustomEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E381E1BF1EE0600CEFABA /* CustomEmptyView.m */; };
+		157E38301BF1EE0600CEFABA /* MIntroduceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38201BF1EE0600CEFABA /* MIntroduceView.m */; };
+		157E38311BF1EE0600CEFABA /* RoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38221BF1EE0600CEFABA /* RoundButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -506,38 +506,6 @@
 		157E35981BF1D95A00CEFABA /* SerialBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialBase.h; sourceTree = "<group>"; };
 		157E35991BF1D95A00CEFABA /* SerialBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialBase.m; sourceTree = "<group>"; };
 		157E359A1BF1D95A00CEFABA /* SerialConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialConstant.h; sourceTree = "<group>"; };
-		157E36001BF1D95A00CEFABA /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
-		157E36011BF1D95A00CEFABA /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
-		157E36021BF1D95A00CEFABA /* LaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
-		157E36031BF1D95A00CEFABA /* TXControllerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXControllerCategory.h; sourceTree = "<group>"; };
-		157E36041BF1D95A00CEFABA /* TXControllerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXControllerCategory.m; sourceTree = "<group>"; };
-		157E36051BF1D95A00CEFABA /* TXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXNavigationController.h; sourceTree = "<group>"; };
-		157E36061BF1D95A00CEFABA /* TXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXNavigationController.m; sourceTree = "<group>"; };
-		157E36071BF1D95A00CEFABA /* TXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTabBarController.h; sourceTree = "<group>"; };
-		157E36081BF1D95A00CEFABA /* TXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTabBarController.m; sourceTree = "<group>"; };
-		157E36091BF1D95A00CEFABA /* WechatWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatWebViewController.h; sourceTree = "<group>"; };
-		157E360A1BF1D95A00CEFABA /* WechatWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatWebViewController.m; sourceTree = "<group>"; };
-		157E360B1BF1D95A00CEFABA /* YundxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YundxViewController.h; sourceTree = "<group>"; };
-		157E360C1BF1D95A00CEFABA /* YundxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YundxViewController.m; sourceTree = "<group>"; };
-		157E366C1BF1D95B00CEFABA /* CheckObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckObject.h; sourceTree = "<group>"; };
-		157E366D1BF1D95B00CEFABA /* CheckObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckObject.m; sourceTree = "<group>"; };
-		157E366E1BF1D95B00CEFABA /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
-		157E366F1BF1D95B00CEFABA /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
-		157E36701BF1D95B00CEFABA /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
-		157E36711BF1D95B00CEFABA /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
-		157E36721BF1D95B00CEFABA /* MemberService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberService.h; sourceTree = "<group>"; };
-		157E36731BF1D95B00CEFABA /* MemberService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberService.m; sourceTree = "<group>"; };
-		157E36781BF1D95B00CEFABA /* RegionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionService.h; sourceTree = "<group>"; };
-		157E36791BF1D95B00CEFABA /* RegionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionService.m; sourceTree = "<group>"; };
-		157E367B1BF1D95B00CEFABA /* NotifyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifyDefine.h; sourceTree = "<group>"; };
-		157E367C1BF1D95B00CEFABA /* ServiceUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceUrls.h; sourceTree = "<group>"; };
-		157E367D1BF1D95B00CEFABA /* UserDefaultsKeies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsKeies.h; sourceTree = "<group>"; };
-		157E367F1BF1D95B00CEFABA /* CustomEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomEmptyView.h; sourceTree = "<group>"; };
-		157E36801BF1D95B00CEFABA /* CustomEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomEmptyView.m; sourceTree = "<group>"; };
-		157E36841BF1D95B00CEFABA /* MIntroduceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIntroduceView.h; sourceTree = "<group>"; };
-		157E36851BF1D95B00CEFABA /* MIntroduceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIntroduceView.m; sourceTree = "<group>"; };
-		157E368A1BF1D95B00CEFABA /* RoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundButton.h; sourceTree = "<group>"; };
-		157E368B1BF1D95B00CEFABA /* RoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundButton.m; sourceTree = "<group>"; };
 		157E37CE1BF1DA3300CEFABA /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		157E37CF1BF1DABE00CEFABA /* Meiye-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meiye-Prefix.pch"; sourceTree = "<group>"; };
 		157E37D11BF1DC0C00CEFABA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -557,6 +525,38 @@
 		157E37F61BF1DF5D00CEFABA /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		157E37F81BF1E30500CEFABA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		157E37FA1BF1E30C00CEFABA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		157E37FE1BF1EE0600CEFABA /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		157E37FF1BF1EE0600CEFABA /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		157E38001BF1EE0600CEFABA /* LaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
+		157E38011BF1EE0600CEFABA /* TXControllerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXControllerCategory.h; sourceTree = "<group>"; };
+		157E38021BF1EE0600CEFABA /* TXControllerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXControllerCategory.m; sourceTree = "<group>"; };
+		157E38031BF1EE0600CEFABA /* TXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXNavigationController.h; sourceTree = "<group>"; };
+		157E38041BF1EE0600CEFABA /* TXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXNavigationController.m; sourceTree = "<group>"; };
+		157E38051BF1EE0600CEFABA /* TXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTabBarController.h; sourceTree = "<group>"; };
+		157E38061BF1EE0600CEFABA /* TXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTabBarController.m; sourceTree = "<group>"; };
+		157E38071BF1EE0600CEFABA /* WechatWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatWebViewController.h; sourceTree = "<group>"; };
+		157E38081BF1EE0600CEFABA /* WechatWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatWebViewController.m; sourceTree = "<group>"; };
+		157E38091BF1EE0600CEFABA /* YundxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YundxViewController.h; sourceTree = "<group>"; };
+		157E380A1BF1EE0600CEFABA /* YundxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YundxViewController.m; sourceTree = "<group>"; };
+		157E380E1BF1EE0600CEFABA /* CheckObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckObject.h; sourceTree = "<group>"; };
+		157E380F1BF1EE0600CEFABA /* CheckObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckObject.m; sourceTree = "<group>"; };
+		157E38101BF1EE0600CEFABA /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		157E38111BF1EE0600CEFABA /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		157E38121BF1EE0600CEFABA /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		157E38131BF1EE0600CEFABA /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		157E38141BF1EE0600CEFABA /* MemberService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberService.h; sourceTree = "<group>"; };
+		157E38151BF1EE0600CEFABA /* MemberService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberService.m; sourceTree = "<group>"; };
+		157E38161BF1EE0600CEFABA /* RegionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionService.h; sourceTree = "<group>"; };
+		157E38171BF1EE0600CEFABA /* RegionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionService.m; sourceTree = "<group>"; };
+		157E38191BF1EE0600CEFABA /* NotifyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifyDefine.h; sourceTree = "<group>"; };
+		157E381A1BF1EE0600CEFABA /* ServiceUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceUrls.h; sourceTree = "<group>"; };
+		157E381B1BF1EE0600CEFABA /* UserDefaultsKeies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsKeies.h; sourceTree = "<group>"; };
+		157E381D1BF1EE0600CEFABA /* CustomEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomEmptyView.h; sourceTree = "<group>"; };
+		157E381E1BF1EE0600CEFABA /* CustomEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomEmptyView.m; sourceTree = "<group>"; };
+		157E381F1BF1EE0600CEFABA /* MIntroduceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIntroduceView.h; sourceTree = "<group>"; };
+		157E38201BF1EE0600CEFABA /* MIntroduceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIntroduceView.m; sourceTree = "<group>"; };
+		157E38211BF1EE0600CEFABA /* RoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundButton.h; sourceTree = "<group>"; };
+		157E38221BF1EE0600CEFABA /* RoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -601,7 +601,7 @@
 			isa = PBXGroup;
 			children = (
 				157E341C1BF1D8E700CEFABA /* Meiye */,
-				157E35FE1BF1D95A00CEFABA /* YundxFoundation */,
+				157E37FC1BF1EE0600CEFABA /* AppFoundation */,
 				157E34341BF1D95A00CEFABA /* 3rd */,
 				157E350D1BF1D95A00CEFABA /* CustomUtils */,
 				157E356C1BF1D95A00CEFABA /* module */,
@@ -1343,93 +1343,6 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		157E35FE1BF1D95A00CEFABA /* YundxFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				157E35FF1BF1D95A00CEFABA /* Base */,
-				157E360D1BF1D95A00CEFABA /* Cells */,
-				157E361D1BF1D95A00CEFABA /* Controllers */,
-				157E366B1BF1D95B00CEFABA /* Models */,
-				157E367A1BF1D95B00CEFABA /* Service */,
-				157E367E1BF1D95B00CEFABA /* Views */,
-			);
-			path = YundxFoundation;
-			sourceTree = "<group>";
-		};
-		157E35FF1BF1D95A00CEFABA /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				157E36001BF1D95A00CEFABA /* LaunchViewController.h */,
-				157E36011BF1D95A00CEFABA /* LaunchViewController.m */,
-				157E36021BF1D95A00CEFABA /* LaunchViewController.xib */,
-				157E36031BF1D95A00CEFABA /* TXControllerCategory.h */,
-				157E36041BF1D95A00CEFABA /* TXControllerCategory.m */,
-				157E36051BF1D95A00CEFABA /* TXNavigationController.h */,
-				157E36061BF1D95A00CEFABA /* TXNavigationController.m */,
-				157E36071BF1D95A00CEFABA /* TXTabBarController.h */,
-				157E36081BF1D95A00CEFABA /* TXTabBarController.m */,
-				157E36091BF1D95A00CEFABA /* WechatWebViewController.h */,
-				157E360A1BF1D95A00CEFABA /* WechatWebViewController.m */,
-				157E360B1BF1D95A00CEFABA /* YundxViewController.h */,
-				157E360C1BF1D95A00CEFABA /* YundxViewController.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		157E360D1BF1D95A00CEFABA /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		157E361D1BF1D95A00CEFABA /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		157E366B1BF1D95B00CEFABA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				157E366C1BF1D95B00CEFABA /* CheckObject.h */,
-				157E366D1BF1D95B00CEFABA /* CheckObject.m */,
-				157E366E1BF1D95B00CEFABA /* City.h */,
-				157E366F1BF1D95B00CEFABA /* City.m */,
-				157E36701BF1D95B00CEFABA /* Member.h */,
-				157E36711BF1D95B00CEFABA /* Member.m */,
-				157E36721BF1D95B00CEFABA /* MemberService.h */,
-				157E36731BF1D95B00CEFABA /* MemberService.m */,
-				157E36781BF1D95B00CEFABA /* RegionService.h */,
-				157E36791BF1D95B00CEFABA /* RegionService.m */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		157E367A1BF1D95B00CEFABA /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				157E367B1BF1D95B00CEFABA /* NotifyDefine.h */,
-				157E367C1BF1D95B00CEFABA /* ServiceUrls.h */,
-				157E367D1BF1D95B00CEFABA /* UserDefaultsKeies.h */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		157E367E1BF1D95B00CEFABA /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				157E367F1BF1D95B00CEFABA /* CustomEmptyView.h */,
-				157E36801BF1D95B00CEFABA /* CustomEmptyView.m */,
-				157E36841BF1D95B00CEFABA /* MIntroduceView.h */,
-				157E36851BF1D95B00CEFABA /* MIntroduceView.m */,
-				157E368A1BF1D95B00CEFABA /* RoundButton.h */,
-				157E368B1BF1D95B00CEFABA /* RoundButton.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		157E37D01BF1DBE300CEFABA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1452,6 +1365,93 @@
 				157E37D11BF1DC0C00CEFABA /* MobileCoreServices.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		157E37FC1BF1EE0600CEFABA /* AppFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				157E37FD1BF1EE0600CEFABA /* Base */,
+				157E380B1BF1EE0600CEFABA /* Cells */,
+				157E380C1BF1EE0600CEFABA /* Controllers */,
+				157E380D1BF1EE0600CEFABA /* Models */,
+				157E38181BF1EE0600CEFABA /* Service */,
+				157E381C1BF1EE0600CEFABA /* Views */,
+			);
+			path = AppFoundation;
+			sourceTree = "<group>";
+		};
+		157E37FD1BF1EE0600CEFABA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				157E37FE1BF1EE0600CEFABA /* LaunchViewController.h */,
+				157E37FF1BF1EE0600CEFABA /* LaunchViewController.m */,
+				157E38001BF1EE0600CEFABA /* LaunchViewController.xib */,
+				157E38011BF1EE0600CEFABA /* TXControllerCategory.h */,
+				157E38021BF1EE0600CEFABA /* TXControllerCategory.m */,
+				157E38031BF1EE0600CEFABA /* TXNavigationController.h */,
+				157E38041BF1EE0600CEFABA /* TXNavigationController.m */,
+				157E38051BF1EE0600CEFABA /* TXTabBarController.h */,
+				157E38061BF1EE0600CEFABA /* TXTabBarController.m */,
+				157E38071BF1EE0600CEFABA /* WechatWebViewController.h */,
+				157E38081BF1EE0600CEFABA /* WechatWebViewController.m */,
+				157E38091BF1EE0600CEFABA /* YundxViewController.h */,
+				157E380A1BF1EE0600CEFABA /* YundxViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		157E380B1BF1EE0600CEFABA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		157E380C1BF1EE0600CEFABA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		157E380D1BF1EE0600CEFABA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				157E380E1BF1EE0600CEFABA /* CheckObject.h */,
+				157E380F1BF1EE0600CEFABA /* CheckObject.m */,
+				157E38101BF1EE0600CEFABA /* City.h */,
+				157E38111BF1EE0600CEFABA /* City.m */,
+				157E38121BF1EE0600CEFABA /* Member.h */,
+				157E38131BF1EE0600CEFABA /* Member.m */,
+				157E38141BF1EE0600CEFABA /* MemberService.h */,
+				157E38151BF1EE0600CEFABA /* MemberService.m */,
+				157E38161BF1EE0600CEFABA /* RegionService.h */,
+				157E38171BF1EE0600CEFABA /* RegionService.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		157E38181BF1EE0600CEFABA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				157E38191BF1EE0600CEFABA /* NotifyDefine.h */,
+				157E381A1BF1EE0600CEFABA /* ServiceUrls.h */,
+				157E381B1BF1EE0600CEFABA /* UserDefaultsKeies.h */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		157E381C1BF1EE0600CEFABA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				157E381D1BF1EE0600CEFABA /* CustomEmptyView.h */,
+				157E381E1BF1EE0600CEFABA /* CustomEmptyView.m */,
+				157E381F1BF1EE0600CEFABA /* MIntroduceView.h */,
+				157E38201BF1EE0600CEFABA /* MIntroduceView.m */,
+				157E38211BF1EE0600CEFABA /* RoundButton.h */,
+				157E38221BF1EE0600CEFABA /* RoundButton.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1515,6 +1515,7 @@
 				157E36D11BF1D95B00CEFABA /* UMSCommentInputControlleriPad.xib in Resources */,
 				157E36D51BF1D95B00CEFABA /* UMSnsAccountViewController.xib in Resources */,
 				157E36A11BF1D95B00CEFABA /* IQKeyboardManager.bundle in Resources */,
+				157E38241BF1EE0600CEFABA /* LaunchViewController.xib in Resources */,
 				157E36F01BF1D95B00CEFABA /* TXDateView.xib in Resources */,
 				157E36961BF1D95B00CEFABA /* mapapi.bundle in Resources */,
 				157E36CA1BF1D95B00CEFABA /* SVProgressHUD.bundle in Resources */,
@@ -1532,7 +1533,6 @@
 				157E36F31BF1D95B00CEFABA /* TXLimitTextView.xib in Resources */,
 				157E36D71BF1D95B00CEFABA /* UMSocialSDKResourcesNew.bundle in Resources */,
 				157E342A1BF1D8E700CEFABA /* Assets.xcassets in Resources */,
-				157E377D1BF1D95B00CEFABA /* LaunchViewController.xib in Resources */,
 				157E36AC1BF1D95B00CEFABA /* ISRefresgControlIcon@2x.png in Resources */,
 				157E36D21BF1D95B00CEFABA /* UMShareEditViewController.xib in Resources */,
 				157E36D41BF1D95B00CEFABA /* UMSLoginViewController.xib in Resources */,
@@ -1548,12 +1548,10 @@
 			files = (
 				157E36E51BF1D95B00CEFABA /* AlertUtils.m in Sources */,
 				157E369E1BF1D95B00CEFABA /* EGOImageView.m in Sources */,
-				157E377C1BF1D95B00CEFABA /* LaunchViewController.m in Sources */,
 				157E370D1BF1D95B00CEFABA /* ApplicationHelper.m in Sources */,
 				157E36AF1BF1D95B00CEFABA /* NSObject+SBJson.m in Sources */,
 				157E36B21BF1D95B00CEFABA /* SBJsonStreamParserAccumulator.m in Sources */,
 				157E36F11BF1D95B00CEFABA /* TXImageCropperViewController.m in Sources */,
-				157E37821BF1D95B00CEFABA /* YundxViewController.m in Sources */,
 				157E36A41BF1D95B00CEFABA /* IQTextView.m in Sources */,
 				157E36BF1BF1D95B00CEFABA /* MASLayoutConstraint.m in Sources */,
 				157E36FF1BF1D95B00CEFABA /* UIView+ZUtils.m in Sources */,
@@ -1567,8 +1565,6 @@
 				157E36C01BF1D95B00CEFABA /* MASViewAttribute.m in Sources */,
 				157E36B11BF1D95B00CEFABA /* SBJsonStreamParser.m in Sources */,
 				157E36ED1BF1D95B00CEFABA /* TXAutoScrollView.m in Sources */,
-				157E37C71BF1D95B00CEFABA /* CustomEmptyView.m in Sources */,
-				157E37801BF1D95B00CEFABA /* TXTabBarController.m in Sources */,
 				157E36BE1BF1D95B00CEFABA /* MASConstraintMaker.m in Sources */,
 				157E37011BF1D95B00CEFABA /* ZDropScrollView.m in Sources */,
 				157E37071BF1D95B00CEFABA /* ZUtilsDevice.m in Sources */,
@@ -1576,21 +1572,25 @@
 				157E370C1BF1D95B00CEFABA /* ZUtilsView.m in Sources */,
 				157E371E1BF1D95B00CEFABA /* QueryParam.m in Sources */,
 				157E36B51BF1D95B00CEFABA /* SBJsonStreamWriter.m in Sources */,
-				157E37C31BF1D95B00CEFABA /* MemberService.m in Sources */,
+				157E382B1BF1EE0600CEFABA /* City.m in Sources */,
 				157E36E71BF1D95B00CEFABA /* CustomPageControl.m in Sources */,
+				157E38291BF1EE0600CEFABA /* YundxViewController.m in Sources */,
 				157E37181BF1D95B00CEFABA /* RpcBaseService.m in Sources */,
 				157E371A1BF1D95B00CEFABA /* LoginUtils.m in Sources */,
 				157E36C51BF1D95B00CEFABA /* MBProgressHUD.m in Sources */,
 				157E37031BF1D95B00CEFABA /* ZWXMenuBar.m in Sources */,
 				157E369D1BF1D95B00CEFABA /* EGOImageLoader.m in Sources */,
-				157E377E1BF1D95B00CEFABA /* TXControllerCategory.m in Sources */,
 				157E37141BF1D95B00CEFABA /* HttpClient.m in Sources */,
 				157E37161BF1D95B00CEFABA /* KaKaViewController.m in Sources */,
 				157E36F51BF1D95B00CEFABA /* TXTextField.m in Sources */,
 				157E37121BF1D95B00CEFABA /* AsyncTask.m in Sources */,
 				157E37021BF1D95B00CEFABA /* UIStrikeLabel.m in Sources */,
 				157E37091BF1D95B00CEFABA /* ZUtilsImage.m in Sources */,
+				157E38311BF1EE0600CEFABA /* RoundButton.m in Sources */,
 				157E36A21BF1D95B00CEFABA /* IQKeyboardManager.m in Sources */,
+				157E38281BF1EE0600CEFABA /* WechatWebViewController.m in Sources */,
+				157E382C1BF1EE0600CEFABA /* Member.m in Sources */,
+				157E38271BF1EE0600CEFABA /* TXTabBarController.m in Sources */,
 				157E36C11BF1D95B00CEFABA /* MASViewConstraint.m in Sources */,
 				157E36B91BF1D95B00CEFABA /* SBJsonUTF8Stream.m in Sources */,
 				157E36F81BF1D95B00CEFABA /* TXWebViewProgress.m in Sources */,
@@ -1598,7 +1598,6 @@
 				157E36B31BF1D95B00CEFABA /* SBJsonStreamParserAdapter.m in Sources */,
 				157E368D1BF1D95B00CEFABA /* AFHTTPRequestOperationManager.m in Sources */,
 				157E36BA1BF1D95B00CEFABA /* SBJsonWriter.m in Sources */,
-				157E37C01BF1D95B00CEFABA /* CheckObject.m in Sources */,
 				157E36991BF1D95B00CEFABA /* OBGradientView.m in Sources */,
 				157E36A81BF1D95B00CEFABA /* UIView+Hierarchy.m in Sources */,
 				157E37001BF1D95B00CEFABA /* ZDroppableView.m in Sources */,
@@ -1608,6 +1607,7 @@
 				157E368F1BF1D95B00CEFABA /* AFNetworkReachabilityManager.m in Sources */,
 				157E36B71BF1D95B00CEFABA /* SBJsonStreamWriterState.m in Sources */,
 				157E36A71BF1D95B00CEFABA /* NSArray+Sort.m in Sources */,
+				157E38251BF1EE0600CEFABA /* TXControllerCategory.m in Sources */,
 				157E36A61BF1D95B00CEFABA /* IQToolbar.m in Sources */,
 				157E369B1BF1D95B00CEFABA /* EGOImageButton.m in Sources */,
 				157E36931BF1D95B00CEFABA /* AFURLResponseSerialization.m in Sources */,
@@ -1621,17 +1621,18 @@
 				157E36B81BF1D95B00CEFABA /* SBJsonTokeniser.m in Sources */,
 				157E36A91BF1D95B00CEFABA /* UIView+IQKeyboardToolbar.m in Sources */,
 				157E371B1BF1D95B00CEFABA /* PageQueryParam.m in Sources */,
-				157E37C11BF1D95B00CEFABA /* City.m in Sources */,
 				157E36AA1BF1D95B00CEFABA /* UIWindow+Hierarchy.m in Sources */,
 				157E36901BF1D95B00CEFABA /* AFSecurityPolicy.m in Sources */,
 				157E36FC1BF1D95B00CEFABA /* NSArray+ZUtils.m in Sources */,
 				157E36F41BF1D95B00CEFABA /* TXPicScrollView.m in Sources */,
 				157E36C91BF1D95B00CEFABA /* pinyin.c in Sources */,
-				157E37C21BF1D95B00CEFABA /* Member.m in Sources */,
+				157E38231BF1EE0600CEFABA /* LaunchViewController.m in Sources */,
 				157E37131BF1D95B00CEFABA /* Entity.m in Sources */,
 				157E37101BF1D95B00CEFABA /* AFAppDotNetAPIClient.m in Sources */,
-				157E37CA1BF1D95B00CEFABA /* MIntroduceView.m in Sources */,
 				157E36FB1BF1D95B00CEFABA /* GTMBase64.m in Sources */,
+				157E38301BF1EE0600CEFABA /* MIntroduceView.m in Sources */,
+				157E382E1BF1EE0600CEFABA /* RegionService.m in Sources */,
+				157E382D1BF1EE0600CEFABA /* MemberService.m in Sources */,
 				157E36E91BF1D95B00CEFABA /* PuDownMenuCell.m in Sources */,
 				157E36981BF1D95B00CEFABA /* CMNavBarNotificationView.m in Sources */,
 				157E370E1BF1D95B00CEFABA /* Global.m in Sources */,
@@ -1640,6 +1641,7 @@
 				157E36C61BF1D95B00CEFABA /* MSWeakTimer.m in Sources */,
 				157E36F71BF1D95B00CEFABA /* TXWebBrowser.m in Sources */,
 				157E36EF1BF1D95B00CEFABA /* TXDateView.m in Sources */,
+				157E382F1BF1EE0600CEFABA /* CustomEmptyView.m in Sources */,
 				157E36DE1BF1D95B00CEFABA /* VerticallyAlignedLabel.m in Sources */,
 				157E36B61BF1D95B00CEFABA /* SBJsonStreamWriterAccumulator.m in Sources */,
 				157E36C81BF1D95B00CEFABA /* ChineseString.m in Sources */,
@@ -1648,7 +1650,6 @@
 				157E36EE1BF1D95B00CEFABA /* TXCoverView.m in Sources */,
 				157E36C31BF1D95B00CEFABA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				157E37041BF1D95B00CEFABA /* ZLocationManager.m in Sources */,
-				157E37CD1BF1D95B00CEFABA /* RoundButton.m in Sources */,
 				157E36E21BF1D95B00CEFABA /* UIImage+AspectFit.m in Sources */,
 				157E36F21BF1D95B00CEFABA /* TXLimitTextView.m in Sources */,
 				157E369F1BF1D95B00CEFABA /* EGORefreshTableHeaderView.m in Sources */,
@@ -1660,16 +1661,15 @@
 				157E37081BF1D95B00CEFABA /* ZUtilsFile.m in Sources */,
 				157E36F61BF1D95B00CEFABA /* TXVerifyCodeButton.m in Sources */,
 				157E36FE1BF1D95B00CEFABA /* UIButton+ZUtils.m in Sources */,
+				157E38261BF1EE0600CEFABA /* TXNavigationController.m in Sources */,
 				157E371C1BF1D95B00CEFABA /* Paging.m in Sources */,
-				157E37811BF1D95B00CEFABA /* WechatWebViewController.m in Sources */,
 				157E36F91BF1D95B00CEFABA /* UIPlaceHolderTextView.m in Sources */,
 				157E36AE1BF1D95B00CEFABA /* ISRefreshControl.m in Sources */,
 				157E36B01BF1D95B00CEFABA /* SBJsonParser.m in Sources */,
 				157E36941BF1D95B00CEFABA /* AFURLSessionManager.m in Sources */,
-				157E377F1BF1D95B00CEFABA /* TXNavigationController.m in Sources */,
 				157E37191BF1D95B00CEFABA /* DataSet.m in Sources */,
 				157E34221BF1D8E700CEFABA /* AppDelegate.m in Sources */,
-				157E37C61BF1D95B00CEFABA /* RegionService.m in Sources */,
+				157E382A1BF1EE0600CEFABA /* CheckObject.m in Sources */,
 				157E36A31BF1D95B00CEFABA /* IQSegmentedNextPrevious.m in Sources */,
 				157E37171BF1D95B00CEFABA /* LogUtils.m in Sources */,
 				157E369C1BF1D95B00CEFABA /* EGOImageLoadConnection.m in Sources */,
