@@ -17,7 +17,7 @@
 
 @end
 
-@interface TXImageCropperViewController : YundxViewController
+@interface TXImageCropperViewController : TXBaseViewController
 
 
 @property (nonatomic,assign)UIImagePickerControllerSourceType o_entryType;

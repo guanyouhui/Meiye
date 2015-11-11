@@ -21,7 +21,6 @@
 		157E36941BF1D95B00CEFABA /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E34481BF1D95A00CEFABA /* AFURLSessionManager.m */; };
 		157E36951BF1D95B00CEFABA /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157E344A1BF1D95A00CEFABA /* BaiduMapAPI.framework */; };
 		157E36961BF1D95B00CEFABA /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 157E344B1BF1D95A00CEFABA /* mapapi.bundle */; };
-		157E36971BF1D95B00CEFABA /* libBDSSpeechSynthesizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 157E34511BF1D95A00CEFABA /* libBDSSpeechSynthesizer.a */; };
 		157E36981BF1D95B00CEFABA /* CMNavBarNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E34541BF1D95A00CEFABA /* CMNavBarNotificationView.m */; };
 		157E36991BF1D95B00CEFABA /* OBGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E34561BF1D95A00CEFABA /* OBGradientView.m */; };
 		157E369A1BF1D95B00CEFABA /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E345A1BF1D95A00CEFABA /* EGOCache.m */; };
@@ -180,8 +179,8 @@
 		157E38251BF1EE0600CEFABA /* TXControllerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38021BF1EE0600CEFABA /* TXControllerCategory.m */; };
 		157E38261BF1EE0600CEFABA /* TXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38041BF1EE0600CEFABA /* TXNavigationController.m */; };
 		157E38271BF1EE0600CEFABA /* TXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38061BF1EE0600CEFABA /* TXTabBarController.m */; };
-		157E38281BF1EE0600CEFABA /* WechatWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38081BF1EE0600CEFABA /* WechatWebViewController.m */; };
-		157E38291BF1EE0600CEFABA /* YundxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E380A1BF1EE0600CEFABA /* YundxViewController.m */; };
+		157E38281BF1EE0600CEFABA /* TXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38081BF1EE0600CEFABA /* TXWebViewController.m */; };
+		157E38291BF1EE0600CEFABA /* TXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E380A1BF1EE0600CEFABA /* TXBaseViewController.m */; };
 		157E382A1BF1EE0600CEFABA /* CheckObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E380F1BF1EE0600CEFABA /* CheckObject.m */; };
 		157E382B1BF1EE0600CEFABA /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38111BF1EE0600CEFABA /* City.m */; };
 		157E382C1BF1EE0600CEFABA /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38131BF1EE0600CEFABA /* Member.m */; };
@@ -220,11 +219,6 @@
 		157E34481BF1D95A00CEFABA /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		157E344A1BF1D95A00CEFABA /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI.framework; sourceTree = "<group>"; };
 		157E344B1BF1D95A00CEFABA /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
-		157E344D1BF1D95A00CEFABA /* BDSBuiltInPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSBuiltInPlayer.h; sourceTree = "<group>"; };
-		157E344E1BF1D95A00CEFABA /* BDSSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizer.h; sourceTree = "<group>"; };
-		157E344F1BF1D95A00CEFABA /* BDSSpeechSynthesizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerDelegate.h; sourceTree = "<group>"; };
-		157E34501BF1D95A00CEFABA /* BDSSynthesizerLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSynthesizerLogLevel.h; sourceTree = "<group>"; };
-		157E34511BF1D95A00CEFABA /* libBDSSpeechSynthesizer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBDSSpeechSynthesizer.a; sourceTree = "<group>"; };
 		157E34531BF1D95A00CEFABA /* CMNavBarNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNavBarNotificationView.h; sourceTree = "<group>"; };
 		157E34541BF1D95A00CEFABA /* CMNavBarNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNavBarNotificationView.m; sourceTree = "<group>"; };
 		157E34551BF1D95A00CEFABA /* OBGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBGradientView.h; sourceTree = "<group>"; };
@@ -534,10 +528,10 @@
 		157E38041BF1EE0600CEFABA /* TXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXNavigationController.m; sourceTree = "<group>"; };
 		157E38051BF1EE0600CEFABA /* TXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTabBarController.h; sourceTree = "<group>"; };
 		157E38061BF1EE0600CEFABA /* TXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTabBarController.m; sourceTree = "<group>"; };
-		157E38071BF1EE0600CEFABA /* WechatWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatWebViewController.h; sourceTree = "<group>"; };
-		157E38081BF1EE0600CEFABA /* WechatWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatWebViewController.m; sourceTree = "<group>"; };
-		157E38091BF1EE0600CEFABA /* YundxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YundxViewController.h; sourceTree = "<group>"; };
-		157E380A1BF1EE0600CEFABA /* YundxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YundxViewController.m; sourceTree = "<group>"; };
+		157E38071BF1EE0600CEFABA /* TXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXWebViewController.h; sourceTree = "<group>"; };
+		157E38081BF1EE0600CEFABA /* TXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXWebViewController.m; sourceTree = "<group>"; };
+		157E38091BF1EE0600CEFABA /* TXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXBaseViewController.h; sourceTree = "<group>"; };
+		157E380A1BF1EE0600CEFABA /* TXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXBaseViewController.m; sourceTree = "<group>"; };
 		157E380E1BF1EE0600CEFABA /* CheckObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckObject.h; sourceTree = "<group>"; };
 		157E380F1BF1EE0600CEFABA /* CheckObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckObject.m; sourceTree = "<group>"; };
 		157E38101BF1EE0600CEFABA /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
@@ -548,15 +542,16 @@
 		157E38151BF1EE0600CEFABA /* MemberService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberService.m; sourceTree = "<group>"; };
 		157E38161BF1EE0600CEFABA /* RegionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionService.h; sourceTree = "<group>"; };
 		157E38171BF1EE0600CEFABA /* RegionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionService.m; sourceTree = "<group>"; };
-		157E38191BF1EE0600CEFABA /* NotifyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifyDefine.h; sourceTree = "<group>"; };
-		157E381A1BF1EE0600CEFABA /* ServiceUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceUrls.h; sourceTree = "<group>"; };
-		157E381B1BF1EE0600CEFABA /* UserDefaultsKeies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsKeies.h; sourceTree = "<group>"; };
 		157E381D1BF1EE0600CEFABA /* CustomEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomEmptyView.h; sourceTree = "<group>"; };
 		157E381E1BF1EE0600CEFABA /* CustomEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomEmptyView.m; sourceTree = "<group>"; };
 		157E381F1BF1EE0600CEFABA /* MIntroduceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIntroduceView.h; sourceTree = "<group>"; };
 		157E38201BF1EE0600CEFABA /* MIntroduceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIntroduceView.m; sourceTree = "<group>"; };
 		157E38211BF1EE0600CEFABA /* RoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundButton.h; sourceTree = "<group>"; };
 		157E38221BF1EE0600CEFABA /* RoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundButton.m; sourceTree = "<group>"; };
+		15F2707E1BF32D4E00582DE0 /* NotifyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifyDefine.h; sourceTree = "<group>"; };
+		15F2707F1BF32D4E00582DE0 /* ServiceUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceUrls.h; sourceTree = "<group>"; };
+		15F270801BF32D4E00582DE0 /* UserDefaultsKeies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsKeies.h; sourceTree = "<group>"; };
+		15F270811BF32D8000582DE0 /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -581,7 +576,6 @@
 				157E37DF1BF1DE7100CEFABA /* WebKit.framework in Frameworks */,
 				157E37DE1BF1DE6D00CEFABA /* AVFoundation.framework in Frameworks */,
 				157E37DD1BF1DE6200CEFABA /* MobileCoreServices.framework in Frameworks */,
-				157E36971BF1D95B00CEFABA /* libBDSSpeechSynthesizer.a in Frameworks */,
 				157E36DA1BF1D95B00CEFABA /* TencentOpenAPI.framework in Frameworks */,
 				157E36BB1BF1D95B00CEFABA /* libBPush.a in Frameworks */,
 				157E36951BF1D95B00CEFABA /* BaiduMapAPI.framework in Frameworks */,
@@ -645,7 +639,6 @@
 			children = (
 				157E34351BF1D95A00CEFABA /* AFNetworking */,
 				157E34491BF1D95A00CEFABA /* BaiduApi */,
-				157E344C1BF1D95A00CEFABA /* BaiduTTSLib */,
 				157E34521BF1D95A00CEFABA /* CMNavBarNotificationView */,
 				157E34571BF1D95A00CEFABA /* EGO */,
 				157E34691BF1D95A00CEFABA /* ImagePlayerView */,
@@ -699,18 +692,6 @@
 				157E344B1BF1D95A00CEFABA /* mapapi.bundle */,
 			);
 			path = BaiduApi;
-			sourceTree = "<group>";
-		};
-		157E344C1BF1D95A00CEFABA /* BaiduTTSLib */ = {
-			isa = PBXGroup;
-			children = (
-				157E344D1BF1D95A00CEFABA /* BDSBuiltInPlayer.h */,
-				157E344E1BF1D95A00CEFABA /* BDSSpeechSynthesizer.h */,
-				157E344F1BF1D95A00CEFABA /* BDSSpeechSynthesizerDelegate.h */,
-				157E34501BF1D95A00CEFABA /* BDSSynthesizerLogLevel.h */,
-				157E34511BF1D95A00CEFABA /* libBDSSpeechSynthesizer.a */,
-			);
-			path = BaiduTTSLib;
 			sourceTree = "<group>";
 		};
 		157E34521BF1D95A00CEFABA /* CMNavBarNotificationView */ = {
@@ -1107,8 +1088,8 @@
 			children = (
 				157E350F1BF1D95A00CEFABA /* Category */,
 				157E35141BF1D95A00CEFABA /* CustomView */,
-				157E353A1BF1D95A00CEFABA /* TXConstant.h */,
 				157E353B1BF1D95A00CEFABA /* TXLib.h */,
+				157E353A1BF1D95A00CEFABA /* TXConstant.h */,
 				157E353C1BF1D95A00CEFABA /* Utils */,
 			);
 			path = TXLib;
@@ -1370,11 +1351,11 @@
 		157E37FC1BF1EE0600CEFABA /* AppFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				15F2707D1BF32D4E00582DE0 /* Service-h */,
 				157E37FD1BF1EE0600CEFABA /* Base */,
 				157E380B1BF1EE0600CEFABA /* Cells */,
 				157E380C1BF1EE0600CEFABA /* Controllers */,
 				157E380D1BF1EE0600CEFABA /* Models */,
-				157E38181BF1EE0600CEFABA /* Service */,
 				157E381C1BF1EE0600CEFABA /* Views */,
 			);
 			path = AppFoundation;
@@ -1392,10 +1373,10 @@
 				157E38041BF1EE0600CEFABA /* TXNavigationController.m */,
 				157E38051BF1EE0600CEFABA /* TXTabBarController.h */,
 				157E38061BF1EE0600CEFABA /* TXTabBarController.m */,
-				157E38071BF1EE0600CEFABA /* WechatWebViewController.h */,
-				157E38081BF1EE0600CEFABA /* WechatWebViewController.m */,
-				157E38091BF1EE0600CEFABA /* YundxViewController.h */,
-				157E380A1BF1EE0600CEFABA /* YundxViewController.m */,
+				157E38071BF1EE0600CEFABA /* TXWebViewController.h */,
+				157E38081BF1EE0600CEFABA /* TXWebViewController.m */,
+				157E38091BF1EE0600CEFABA /* TXBaseViewController.h */,
+				157E380A1BF1EE0600CEFABA /* TXBaseViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1431,16 +1412,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		157E38181BF1EE0600CEFABA /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				157E38191BF1EE0600CEFABA /* NotifyDefine.h */,
-				157E381A1BF1EE0600CEFABA /* ServiceUrls.h */,
-				157E381B1BF1EE0600CEFABA /* UserDefaultsKeies.h */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
 		157E381C1BF1EE0600CEFABA /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -1452,6 +1423,17 @@
 				157E38221BF1EE0600CEFABA /* RoundButton.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		15F2707D1BF32D4E00582DE0 /* Service-h */ = {
+			isa = PBXGroup;
+			children = (
+				15F270811BF32D8000582DE0 /* AppConstant.h */,
+				15F2707E1BF32D4E00582DE0 /* NotifyDefine.h */,
+				15F2707F1BF32D4E00582DE0 /* ServiceUrls.h */,
+				15F270801BF32D4E00582DE0 /* UserDefaultsKeies.h */,
+			);
+			path = "Service-h";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1574,7 +1556,7 @@
 				157E36B51BF1D95B00CEFABA /* SBJsonStreamWriter.m in Sources */,
 				157E382B1BF1EE0600CEFABA /* City.m in Sources */,
 				157E36E71BF1D95B00CEFABA /* CustomPageControl.m in Sources */,
-				157E38291BF1EE0600CEFABA /* YundxViewController.m in Sources */,
+				157E38291BF1EE0600CEFABA /* TXBaseViewController.m in Sources */,
 				157E37181BF1D95B00CEFABA /* RpcBaseService.m in Sources */,
 				157E371A1BF1D95B00CEFABA /* LoginUtils.m in Sources */,
 				157E36C51BF1D95B00CEFABA /* MBProgressHUD.m in Sources */,
@@ -1588,7 +1570,7 @@
 				157E37091BF1D95B00CEFABA /* ZUtilsImage.m in Sources */,
 				157E38311BF1EE0600CEFABA /* RoundButton.m in Sources */,
 				157E36A21BF1D95B00CEFABA /* IQKeyboardManager.m in Sources */,
-				157E38281BF1EE0600CEFABA /* WechatWebViewController.m in Sources */,
+				157E38281BF1EE0600CEFABA /* TXWebViewController.m in Sources */,
 				157E382C1BF1EE0600CEFABA /* Member.m in Sources */,
 				157E38271BF1EE0600CEFABA /* TXTabBarController.m in Sources */,
 				157E36C11BF1D95B00CEFABA /* MASViewConstraint.m in Sources */,

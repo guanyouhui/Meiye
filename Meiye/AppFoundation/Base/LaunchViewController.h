@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 zhenwanxiang. All rights reserved.
 //
 
-#import "YundxViewController.h"
+#import "TXBaseViewController.h"
 
-@interface LaunchViewController : YundxViewController
+@interface LaunchViewController : TXBaseViewController
 
 - (void)playVoice:(NSString *)palyText;
 

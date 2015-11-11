@@ -205,7 +205,7 @@
     
     NSArray *introduceImages = nil;
     
-    if (IPHONE5_OR_LATER) {
+    if (IS_GREAT_IPHONE5) {
         introduceImages = kIntroduce4PlayVideoImagesArray1136;
     } else {
         introduceImages = kIntroduce4PlayVideoImagesArray960;

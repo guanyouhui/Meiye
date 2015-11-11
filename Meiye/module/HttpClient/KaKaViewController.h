@@ -61,6 +61,10 @@
 
 #pragma mark - 异常处理
 /**
+ * 处理未知异常，通常为业务异常
+ */
+- (void)handleAllException:(NSInteger)what exception:(NSException *)exception;
+/**
  * 请求等待超时 异常
  */
 - (void)handleRequestTimeoutException:(NSInteger)what;
