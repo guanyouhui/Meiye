@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151017E81BF5795700FC88DA /* LoginHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151017E61BF5795700FC88DA /* LoginHomeViewController.m */; };
+		151017E91BF5795700FC88DA /* LoginHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151017E71BF5795700FC88DA /* LoginHomeViewController.xib */; };
 		157E341F1BF1D8E700CEFABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E341E1BF1D8E700CEFABA /* main.m */; };
 		157E34221BF1D8E700CEFABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E34211BF1D8E700CEFABA /* AppDelegate.m */; };
 		157E342A1BF1D8E700CEFABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E34291BF1D8E700CEFABA /* Assets.xcassets */; };
@@ -192,6 +194,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		151017E51BF5795700FC88DA /* LoginHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHomeViewController.h; sourceTree = "<group>"; };
+		151017E61BF5795700FC88DA /* LoginHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHomeViewController.m; sourceTree = "<group>"; };
+		151017E71BF5795700FC88DA /* LoginHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginHomeViewController.xib; sourceTree = "<group>"; };
 		157E341A1BF1D8E600CEFABA /* Meiye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meiye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		157E341E1BF1D8E700CEFABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		157E34201BF1D8E700CEFABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -591,6 +596,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		151017E41BF5792700FC88DA /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				151017E51BF5795700FC88DA /* LoginHomeViewController.h */,
+				151017E61BF5795700FC88DA /* LoginHomeViewController.m */,
+				151017E71BF5795700FC88DA /* LoginHomeViewController.xib */,
+			);
+			name = Member;
+			sourceTree = "<group>";
+		};
+		151017EA1BF580E700FC88DA /* Product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
 		157E34111BF1D8E600CEFABA = {
 			isa = PBXGroup;
 			children = (
@@ -1391,6 +1413,8 @@
 		157E380C1BF1EE0600CEFABA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				151017EA1BF580E700FC88DA /* Product */,
+				151017E41BF5792700FC88DA /* Member */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1503,6 +1527,7 @@
 				157E36CA1BF1D95B00CEFABA /* SVProgressHUD.bundle in Resources */,
 				157E36AB1BF1D95B00CEFABA /* ISRefresgControlIcon.png in Resources */,
 				157E36D31BF1D95B00CEFABA /* UMShareEditViewControlleriPad.xib in Resources */,
+				151017E91BF5795700FC88DA /* LoginHomeViewController.xib in Resources */,
 				157E36D61BF1D95B00CEFABA /* UMSShareListController.xib in Resources */,
 				157E36CD1BF1D95B00CEFABA /* UMSocialLocalizable.strings in Resources */,
 				157E36E01BF1D95B00CEFABA /* TGRImageViewController.xib in Resources */,
@@ -1648,6 +1673,7 @@
 				157E36F91BF1D95B00CEFABA /* UIPlaceHolderTextView.m in Sources */,
 				157E36AE1BF1D95B00CEFABA /* ISRefreshControl.m in Sources */,
 				157E36B01BF1D95B00CEFABA /* SBJsonParser.m in Sources */,
+				151017E81BF5795700FC88DA /* LoginHomeViewController.m in Sources */,
 				157E36941BF1D95B00CEFABA /* AFURLSessionManager.m in Sources */,
 				157E37191BF1D95B00CEFABA /* DataSet.m in Sources */,
 				157E34221BF1D8E700CEFABA /* AppDelegate.m in Sources */,
