@@ -93,21 +93,29 @@
 //        return;
 //    }
 
-    [self checkLogin];
-    
+//    BOOL loginSuccess = [self checkLogin];
+#warning - test
+    BOOL loginSuccess = NO;
     //先进入首页
     __weak LaunchViewController* __mySelf = self;
     dispatch_async(kMainQueue, ^{
-        [__mySelf entryToHome];
-        return ;
+        if (loginSuccess) {
+            [__mySelf entryToHome];
+        }else{
+            [__mySelf entryToLogin];
+        }
     });
-    
+}
+
+
+- (IBAction)entryToLogin{
+    [[GlobalVC sharedInstance] showLoginViewAnimation:NO];
 }
 
 - (void)entryToHome{
     
     AppDelegate* app = [UIApplication sharedApplication].delegate;
-    app.window.rootViewController = [GlobalVC sharedInstance].mainTabVC;
+    app.window.rootViewController = [GlobalVC sharedInstance].o_mainTabVC;
 }
 
 -(void) asyncTaskWillExecute:(NSInteger)what
