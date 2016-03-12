@@ -22,8 +22,6 @@ typedef NS_ENUM(NSInteger, Login_Type) {
 
 typedef NS_ENUM(NSInteger, Login_After_Todo) {
     Login_After_Todo_None=0, //不作操作
-    Login_After_Todo_Mine, //进入我的
-    Login_After_Todo_GetOrder //抢单
 };
 
 @interface MemberJsonResponseHandler : JsonResponseHandler

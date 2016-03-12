@@ -223,6 +223,23 @@
     }
     return nil;
 }
+
+
+- (void)setTabBarItemImageName:(NSString *)imageName withSelectedImageName:(NSString *)selectedImageName {
+    
+    if ([self.tabBarItem respondsToSelector:@selector(initWithTitle:image:selectedImage:)]) {
+        UITabBarItem * tabBarItem = [[UITabBarItem alloc] initWithTitle:nil image:[UIImage imageNamed:imageName] selectedImage:[UIImage imageNamed:selectedImageName]];
+        self.tabBarItem = tabBarItem;
+    }else{
+        
+        [self.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:selectedImageName]
+                      withFinishedUnselectedImage:[UIImage imageNamed:imageName]];
+    }
+    
+    self.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
+}
+
+
 /**
  * 为UIView添加阴影
  */

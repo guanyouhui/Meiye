@@ -49,5 +49,9 @@
  */
 - (UIViewController *)popToViewControllerClass:(Class)controllerClass;
 
+/**
+ * 设置TabBarItem图片
+ */
+- (void)setTabBarItemImageName:(NSString *)imageName withSelectedImageName:(NSString *)selectedImageName;
 
 @end

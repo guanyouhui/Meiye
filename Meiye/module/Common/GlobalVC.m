@@ -23,53 +23,106 @@
     static GlobalVC* _global = nil;
     dispatch_once(&onceToken, ^{
         _global = [[GlobalVC alloc] init];
+        [_global createLoginViewController];
         [_global createHomeViewController];
     });
     return _global;
 }
 
+
+#pragma mark- 创建全局的 所有首页控制器
+-(void) createLoginViewController
+{
+    _o_launchVC = [[LaunchViewController alloc] init];
+    _o_loginVC = [[TXLoginViewController alloc] init];
+    _o_loginNavVC = [[TXNavigationController alloc] initWithRootViewController:_o_loginVC];
+}
+
+
 -(void) createHomeViewController
 {
+    _o_homeVC= [[TXHomeViewController alloc] init];
+    _o_productVC = [[TXProductViewController alloc] init];
+    _o_activityVC = [[TXActivityViewController alloc] init];
+    _o_storeVC = [[TXStoreViewController alloc]init];
+    _o_mineVC = [[TXMineViewController alloc] init];
     
-//    self.launchVC = [[LaunchViewController alloc] init];
-//    self.cityWideVC = [[CityWideViewController alloc] init];
-//    self.interCityVC = [[InterCityViewController alloc] init];
-//    self.lifeVC = [[LifeViewController alloc] init];
-//    self.mineVC = [[MineViewController alloc]init];
-//    
-//    TXNavigationController* cityWideNav = [[TXNavigationController alloc] initWithRootViewController:self.cityWideVC];
-//    TXNavigationController* interCityNav = [[TXNavigationController alloc] initWithRootViewController:self.interCityVC];
-//    TXNavigationController* lifeNav = [[TXNavigationController alloc] initWithRootViewController:self.lifeVC];
-//    TXNavigationController* mineNav = [[TXNavigationController alloc] initWithRootViewController:self.mineVC];
-//    
-//    
-//    [self.cityWideVC setTabBarItemTitle:@"市内配送" andImageName:@"tab-tc" andSelectedImageName:@"tab-tc-blue"];
-//    [self.interCityVC setTabBarItemTitle:@"城际直达" andImageName:@"tab-cj" andSelectedImageName:@"tab-cj-blue"];
-//    [self.lifeVC setTabBarItemTitle:@"运生活" andImageName:@"tab-sh" andSelectedImageName:@"tab-sh-blue"];
-//    [self.mineVC setTabBarItemTitle:@"我" andImageName:@"tab-wo" andSelectedImageName:@"tab-wo-blue"];
-//    
-//    
-//    self.mainTabVC = [[TXTabBarController alloc] init];
-//    self.mainTabVC.delegate = self;
-//    self.mainTabVC.viewControllers = @[cityWideNav,interCityNav,lifeNav,mineNav];
-//    
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(enterMineController:) name:kNotify_For_LOGIN_SUCCESS_Notify object:nil];
+    
+    TXNavigationController* zHomeNav = [[TXNavigationController alloc] initWithRootViewController:_o_homeVC];
+    TXNavigationController* zProductNav = [[TXNavigationController alloc] initWithRootViewController:_o_productVC];
+    TXNavigationController* zActivityNav = [[TXNavigationController alloc] initWithRootViewController:_o_activityVC];
+    TXNavigationController* zStoreNav = [[TXNavigationController alloc] initWithRootViewController:_o_storeVC];
+    TXNavigationController* zMineNav = [[TXNavigationController alloc] initWithRootViewController:_o_mineVC];
+    
+    
+    [_o_homeVC setTabBarItemImageName:@"lab1" withSelectedImageName:@"lab1_p"];
+    [_o_productVC setTabBarItemImageName:@"lab2" withSelectedImageName:@"lab2_p"];
+    [_o_activityVC setTabBarItemImageName:@"lab3" withSelectedImageName:@"lab3_p"];
+    [_o_storeVC setTabBarItemImageName:@"lab4" withSelectedImageName:@"lab4_p"];
+    [_o_mineVC setTabBarItemImageName:@"lab5" withSelectedImageName:@"lab5_p"];
+    
+    
+    _o_mainTabVC = [[TXTabBarController alloc] init];
+    _o_mainTabVC.viewControllers = @[zHomeNav,zProductNav,zActivityNav,zStoreNav,zMineNav];
 }
+
+
+#pragma mark - 切换Window控制器
+/**
+ * 显示 未登录状态的首页
+ */
+-(void) showLoginViewAnimation:(BOOL)isAnimation
+{
+    [LoginUtils clearLoginInfo];
+    
+    AppDelegate* app = [UIApplication sharedApplication].delegate;
+    if (isAnimation) {
+        CATransition *transtion = [CATransition animation];
+        transtion.duration = 0.5;
+        [transtion setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn]];
+        [transtion setType:@"oglFlip"];
+        [transtion setSubtype:kCATransitionFromLeft];
+        [app.window.layer addAnimation:transtion forKey:@"transtionKey"];
+    }
+    app.window.rootViewController = self.o_loginNavVC;
+}
+
+
+/**
+ * 显示tab 首页
+ */
+-(void) showMainTabVCAnimation:(BOOL)animation
+{
+    //切换到首页的 时候重新创建
+    [self createHomeViewController];
+    AppDelegate* app = [UIApplication sharedApplication].delegate;
+    if (animation) {
+        CATransition *transtion = [CATransition animation];
+        transtion.duration = 0.5;
+        [transtion setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn]];
+        [transtion setType:@"oglFlip"];
+        [transtion setSubtype:kCATransitionFromLeft];
+        [app.window.layer addAnimation:transtion forKey:@"transtionKey"];
+    }
+    app.window.rootViewController = self.o_mainTabVC;
+}
+
+
+
+#pragma end mark
+
+
 
 - (void)goLoginController:(Login_After_Todo)todo{
     
-//    self.loginVC = [[LoginViewController alloc] init];
-//    self.loginVC.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-//    self.loginVC.todo = todo;
-//    
-//    TXNavigationController* loginNav = [[TXNavigationController alloc]initWithRootViewController:self.loginVC];
-//    
-//    [self.mainTabVC presentViewController:loginNav animated:YES completion:nil];
+    //    self.loginVC = [[LoginViewController alloc] init];
+    //    self.loginVC.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    //    self.loginVC.todo = todo;
+    //
+    //    TXNavigationController* loginNav = [[TXNavigationController alloc]initWithRootViewController:self.loginVC];
+    //
+    //    [self.mainTabVC presentViewController:loginNav animated:YES completion:nil];
 }
-
-
-
-
 
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController{
     return YES;

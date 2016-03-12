@@ -23,7 +23,7 @@
     
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = _globalVC.launchVC;
+    self.window.rootViewController = _globalVC.o_launchVC;
     [self.window makeKeyAndVisible];
     
     return YES;

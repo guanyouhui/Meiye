@@ -10,6 +10,4 @@
 
 @interface LaunchViewController : TXBaseViewController
 
-- (void)playVoice:(NSString *)palyText;
-
 @end

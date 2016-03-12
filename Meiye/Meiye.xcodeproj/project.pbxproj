@@ -191,6 +191,25 @@
 		157E382F1BF1EE0600CEFABA /* CustomEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E381E1BF1EE0600CEFABA /* CustomEmptyView.m */; };
 		157E38301BF1EE0600CEFABA /* MIntroduceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38201BF1EE0600CEFABA /* MIntroduceView.m */; };
 		157E38311BF1EE0600CEFABA /* RoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E38221BF1EE0600CEFABA /* RoundButton.m */; };
+		DDF086C81C0B3703007F4AF4 /* TXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF086C61C0B3703007F4AF4 /* TXHomeViewController.m */; };
+		DDF086C91C0B3703007F4AF4 /* TXHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF086C71C0B3703007F4AF4 /* TXHomeViewController.xib */; };
+		DDF086CD1C0B3712007F4AF4 /* TXProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF086CB1C0B3712007F4AF4 /* TXProductViewController.m */; };
+		DDF086CE1C0B3712007F4AF4 /* TXProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF086CC1C0B3712007F4AF4 /* TXProductViewController.xib */; };
+		DDF086D71C0B37C8007F4AF4 /* TXActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF086D51C0B37C8007F4AF4 /* TXActivityViewController.m */; };
+		DDF086D81C0B37C8007F4AF4 /* TXActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF086D61C0B37C8007F4AF4 /* TXActivityViewController.xib */; };
+		DDF086DC1C0B37D8007F4AF4 /* TXStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF086DA1C0B37D8007F4AF4 /* TXStoreViewController.m */; };
+		DDF086DD1C0B37D8007F4AF4 /* TXStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF086DB1C0B37D8007F4AF4 /* TXStoreViewController.xib */; };
+		DDF086E11C0B37E2007F4AF4 /* TXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF086DF1C0B37E2007F4AF4 /* TXMineViewController.m */; };
+		DDF086E21C0B37E2007F4AF4 /* TXMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF086E01C0B37E2007F4AF4 /* TXMineViewController.xib */; };
+		DDF086E71C0B3832007F4AF4 /* TXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF086E51C0B3832007F4AF4 /* TXLoginViewController.m */; };
+		DDF086E81C0B3832007F4AF4 /* TXLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF086E61C0B3832007F4AF4 /* TXLoginViewController.xib */; };
+		DDF086F11C0B4042007F4AF4 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF086EA1C0B4042007F4AF4 /* BaiduMapAPI_Base.framework */; };
+		DDF086F21C0B4042007F4AF4 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF086EB1C0B4042007F4AF4 /* BaiduMapAPI_Cloud.framework */; };
+		DDF086F31C0B4042007F4AF4 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF086EC1C0B4042007F4AF4 /* BaiduMapAPI_Location.framework */; };
+		DDF086F41C0B4042007F4AF4 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF086ED1C0B4042007F4AF4 /* BaiduMapAPI_Map.framework */; };
+		DDF086F51C0B4042007F4AF4 /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF086EE1C0B4042007F4AF4 /* BaiduMapAPI_Radar.framework */; };
+		DDF086F61C0B4042007F4AF4 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF086EF1C0B4042007F4AF4 /* BaiduMapAPI_Search.framework */; };
+		DDF086F71C0B4042007F4AF4 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF086F01C0B4042007F4AF4 /* BaiduMapAPI_Utils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -557,6 +576,31 @@
 		15F2707F1BF32D4E00582DE0 /* ServiceUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceUrls.h; sourceTree = "<group>"; };
 		15F270801BF32D4E00582DE0 /* UserDefaultsKeies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsKeies.h; sourceTree = "<group>"; };
 		15F270811BF32D8000582DE0 /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		DDF086C51C0B3703007F4AF4 /* TXHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXHomeViewController.h; sourceTree = "<group>"; };
+		DDF086C61C0B3703007F4AF4 /* TXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXHomeViewController.m; sourceTree = "<group>"; };
+		DDF086C71C0B3703007F4AF4 /* TXHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXHomeViewController.xib; sourceTree = "<group>"; };
+		DDF086CA1C0B3712007F4AF4 /* TXProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXProductViewController.h; sourceTree = "<group>"; };
+		DDF086CB1C0B3712007F4AF4 /* TXProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXProductViewController.m; sourceTree = "<group>"; };
+		DDF086CC1C0B3712007F4AF4 /* TXProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXProductViewController.xib; sourceTree = "<group>"; };
+		DDF086D41C0B37C8007F4AF4 /* TXActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXActivityViewController.h; sourceTree = "<group>"; };
+		DDF086D51C0B37C8007F4AF4 /* TXActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXActivityViewController.m; sourceTree = "<group>"; };
+		DDF086D61C0B37C8007F4AF4 /* TXActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXActivityViewController.xib; sourceTree = "<group>"; };
+		DDF086D91C0B37D8007F4AF4 /* TXStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXStoreViewController.h; sourceTree = "<group>"; };
+		DDF086DA1C0B37D8007F4AF4 /* TXStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXStoreViewController.m; sourceTree = "<group>"; };
+		DDF086DB1C0B37D8007F4AF4 /* TXStoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXStoreViewController.xib; sourceTree = "<group>"; };
+		DDF086DE1C0B37E2007F4AF4 /* TXMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXMineViewController.h; sourceTree = "<group>"; };
+		DDF086DF1C0B37E2007F4AF4 /* TXMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXMineViewController.m; sourceTree = "<group>"; };
+		DDF086E01C0B37E2007F4AF4 /* TXMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXMineViewController.xib; sourceTree = "<group>"; };
+		DDF086E41C0B3832007F4AF4 /* TXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXLoginViewController.h; sourceTree = "<group>"; };
+		DDF086E51C0B3832007F4AF4 /* TXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXLoginViewController.m; sourceTree = "<group>"; };
+		DDF086E61C0B3832007F4AF4 /* TXLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXLoginViewController.xib; sourceTree = "<group>"; };
+		DDF086EA1C0B4042007F4AF4 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		DDF086EB1C0B4042007F4AF4 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		DDF086EC1C0B4042007F4AF4 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		DDF086ED1C0B4042007F4AF4 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		DDF086EE1C0B4042007F4AF4 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		DDF086EF1C0B4042007F4AF4 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		DDF086F01C0B4042007F4AF4 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -566,25 +610,32 @@
 			files = (
 				157E37FB1BF1E30C00CEFABA /* CoreLocation.framework in Frameworks */,
 				157E37F91BF1E30500CEFABA /* UIKit.framework in Frameworks */,
+				DDF086F71C0B4042007F4AF4 /* BaiduMapAPI_Utils.framework in Frameworks */,
 				157E37F71BF1DF5D00CEFABA /* libiconv.tbd in Frameworks */,
 				157E37F51BF1DF4E00CEFABA /* libsqlite3.tbd in Frameworks */,
 				157E37F31BF1DF4600CEFABA /* libstdc++.tbd in Frameworks */,
 				157E37F11BF1DF3B00CEFABA /* libz.tbd in Frameworks */,
 				157E37ED1BF1DED000CEFABA /* QuartzCore.framework in Frameworks */,
 				157E37EB1BF1DECB00CEFABA /* OpenGLES.framework in Frameworks */,
+				DDF086F51C0B4042007F4AF4 /* BaiduMapAPI_Radar.framework in Frameworks */,
 				157E37E91BF1DEC500CEFABA /* SystemConfiguration.framework in Frameworks */,
+				DDF086F61C0B4042007F4AF4 /* BaiduMapAPI_Search.framework in Frameworks */,
 				157E37E71BF1DE9300CEFABA /* CoreGraphics.framework in Frameworks */,
 				157E37E51BF1DE8C00CEFABA /* Security.framework in Frameworks */,
 				157E37E31BF1DE8400CEFABA /* Foundation.framework in Frameworks */,
 				157E37E11BF1DE7B00CEFABA /* CoreTelephony.framework in Frameworks */,
 				157E37E01BF1DE7600CEFABA /* MessageUI.framework in Frameworks */,
 				157E37DF1BF1DE7100CEFABA /* WebKit.framework in Frameworks */,
+				DDF086F11C0B4042007F4AF4 /* BaiduMapAPI_Base.framework in Frameworks */,
 				157E37DE1BF1DE6D00CEFABA /* AVFoundation.framework in Frameworks */,
 				157E37DD1BF1DE6200CEFABA /* MobileCoreServices.framework in Frameworks */,
 				157E36DA1BF1D95B00CEFABA /* TencentOpenAPI.framework in Frameworks */,
 				157E36BB1BF1D95B00CEFABA /* libBPush.a in Frameworks */,
+				DDF086F31C0B4042007F4AF4 /* BaiduMapAPI_Location.framework in Frameworks */,
 				157E36951BF1D95B00CEFABA /* BaiduMapAPI.framework in Frameworks */,
 				157E36DD1BF1D95B00CEFABA /* libWeChatSDK.a in Frameworks */,
+				DDF086F41C0B4042007F4AF4 /* BaiduMapAPI_Map.framework in Frameworks */,
+				DDF086F21C0B4042007F4AF4 /* BaiduMapAPI_Cloud.framework in Frameworks */,
 				157E36CE1BF1D95B00CEFABA /* libUMSocial_Sdk_4.2.3.a in Frameworks */,
 				157E36CC1BF1D95B00CEFABA /* libMobClickLibrary.a in Frameworks */,
 				157E36D91BF1D95B00CEFABA /* libSocialQQ.a in Frameworks */,
@@ -659,6 +710,7 @@
 		157E34341BF1D95A00CEFABA /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				DDF086E91C0B4042007F4AF4 /* BaiduMap_IOSSDK_v2.9.1_Lib */,
 				157E34351BF1D95A00CEFABA /* AFNetworking */,
 				157E34491BF1D95A00CEFABA /* BaiduApi */,
 				157E34521BF1D95A00CEFABA /* CMNavBarNotificationView */,
@@ -1375,8 +1427,8 @@
 			children = (
 				15F2707D1BF32D4E00582DE0 /* Service-h */,
 				157E37FD1BF1EE0600CEFABA /* Base */,
+				DDF086BF1C0B2BE1007F4AF4 /* Controller */,
 				157E380B1BF1EE0600CEFABA /* Cells */,
-				157E380C1BF1EE0600CEFABA /* Controllers */,
 				157E380D1BF1EE0600CEFABA /* Models */,
 				157E381C1BF1EE0600CEFABA /* Views */,
 			);
@@ -1410,6 +1462,7 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		157E380C1BF1EE0600CEFABA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -1419,6 +1472,8 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> origin/master
 		157E380D1BF1EE0600CEFABA /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -1458,6 +1513,93 @@
 				15F270801BF32D4E00582DE0 /* UserDefaultsKeies.h */,
 			);
 			path = "Service-h";
+			sourceTree = "<group>";
+		};
+		DDF086BF1C0B2BE1007F4AF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDF086E31C0B3815007F4AF4 /* MemberController */,
+				DDF086CF1C0B372D007F4AF4 /* HomeController */,
+				DDF086D01C0B3749007F4AF4 /* ProductController */,
+				DDF086D11C0B375A007F4AF4 /* ActivityController */,
+				DDF086D21C0B3776007F4AF4 /* StoreController */,
+				DDF086D31C0B3791007F4AF4 /* MineController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DDF086CF1C0B372D007F4AF4 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				DDF086C51C0B3703007F4AF4 /* TXHomeViewController.h */,
+				DDF086C61C0B3703007F4AF4 /* TXHomeViewController.m */,
+				DDF086C71C0B3703007F4AF4 /* TXHomeViewController.xib */,
+			);
+			name = HomeController;
+			sourceTree = "<group>";
+		};
+		DDF086D01C0B3749007F4AF4 /* ProductController */ = {
+			isa = PBXGroup;
+			children = (
+				DDF086CA1C0B3712007F4AF4 /* TXProductViewController.h */,
+				DDF086CB1C0B3712007F4AF4 /* TXProductViewController.m */,
+				DDF086CC1C0B3712007F4AF4 /* TXProductViewController.xib */,
+			);
+			name = ProductController;
+			sourceTree = "<group>";
+		};
+		DDF086D11C0B375A007F4AF4 /* ActivityController */ = {
+			isa = PBXGroup;
+			children = (
+				DDF086D41C0B37C8007F4AF4 /* TXActivityViewController.h */,
+				DDF086D51C0B37C8007F4AF4 /* TXActivityViewController.m */,
+				DDF086D61C0B37C8007F4AF4 /* TXActivityViewController.xib */,
+			);
+			name = ActivityController;
+			sourceTree = "<group>";
+		};
+		DDF086D21C0B3776007F4AF4 /* StoreController */ = {
+			isa = PBXGroup;
+			children = (
+				DDF086D91C0B37D8007F4AF4 /* TXStoreViewController.h */,
+				DDF086DA1C0B37D8007F4AF4 /* TXStoreViewController.m */,
+				DDF086DB1C0B37D8007F4AF4 /* TXStoreViewController.xib */,
+			);
+			name = StoreController;
+			sourceTree = "<group>";
+		};
+		DDF086D31C0B3791007F4AF4 /* MineController */ = {
+			isa = PBXGroup;
+			children = (
+				DDF086DE1C0B37E2007F4AF4 /* TXMineViewController.h */,
+				DDF086DF1C0B37E2007F4AF4 /* TXMineViewController.m */,
+				DDF086E01C0B37E2007F4AF4 /* TXMineViewController.xib */,
+			);
+			name = MineController;
+			sourceTree = "<group>";
+		};
+		DDF086E31C0B3815007F4AF4 /* MemberController */ = {
+			isa = PBXGroup;
+			children = (
+				DDF086E41C0B3832007F4AF4 /* TXLoginViewController.h */,
+				DDF086E51C0B3832007F4AF4 /* TXLoginViewController.m */,
+				DDF086E61C0B3832007F4AF4 /* TXLoginViewController.xib */,
+			);
+			name = MemberController;
+			sourceTree = "<group>";
+		};
+		DDF086E91C0B4042007F4AF4 /* BaiduMap_IOSSDK_v2.9.1_Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DDF086EA1C0B4042007F4AF4 /* BaiduMapAPI_Base.framework */,
+				DDF086EB1C0B4042007F4AF4 /* BaiduMapAPI_Cloud.framework */,
+				DDF086EC1C0B4042007F4AF4 /* BaiduMapAPI_Location.framework */,
+				DDF086ED1C0B4042007F4AF4 /* BaiduMapAPI_Map.framework */,
+				DDF086EE1C0B4042007F4AF4 /* BaiduMapAPI_Radar.framework */,
+				DDF086EF1C0B4042007F4AF4 /* BaiduMapAPI_Search.framework */,
+				DDF086F01C0B4042007F4AF4 /* BaiduMapAPI_Utils.framework */,
+			);
+			path = BaiduMap_IOSSDK_v2.9.1_Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1518,7 +1660,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF086C91C0B3703007F4AF4 /* TXHomeViewController.xib in Resources */,
 				157E36D11BF1D95B00CEFABA /* UMSCommentInputControlleriPad.xib in Resources */,
+				DDF086CE1C0B3712007F4AF4 /* TXProductViewController.xib in Resources */,
 				157E36D51BF1D95B00CEFABA /* UMSnsAccountViewController.xib in Resources */,
 				157E36A11BF1D95B00CEFABA /* IQKeyboardManager.bundle in Resources */,
 				157E38241BF1EE0600CEFABA /* LaunchViewController.xib in Resources */,
@@ -1533,15 +1677,19 @@
 				157E36E01BF1D95B00CEFABA /* TGRImageViewController.xib in Resources */,
 				157E36EC1BF1D95B00CEFABA /* tx_delete_image@2x.png in Resources */,
 				157E36EA1BF1D95B00CEFABA /* PuDownMenuCell.xib in Resources */,
+				DDF086E21C0B37E2007F4AF4 /* TXMineViewController.xib in Resources */,
 				157E36DB1BF1D95B00CEFABA /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				157E36CF1BF1D95B00CEFABA /* UMSCommentDetailController.xib in Resources */,
 				157E36EB1BF1D95B00CEFABA /* tx_add_image@2x.png in Resources */,
 				157E36D01BF1D95B00CEFABA /* UMSCommentInputController.xib in Resources */,
 				157E36F31BF1D95B00CEFABA /* TXLimitTextView.xib in Resources */,
 				157E36D71BF1D95B00CEFABA /* UMSocialSDKResourcesNew.bundle in Resources */,
+				DDF086DD1C0B37D8007F4AF4 /* TXStoreViewController.xib in Resources */,
 				157E342A1BF1D8E700CEFABA /* Assets.xcassets in Resources */,
 				157E36AC1BF1D95B00CEFABA /* ISRefresgControlIcon@2x.png in Resources */,
+				DDF086D81C0B37C8007F4AF4 /* TXActivityViewController.xib in Resources */,
 				157E36D21BF1D95B00CEFABA /* UMShareEditViewController.xib in Resources */,
+				DDF086E81C0B3832007F4AF4 /* TXLoginViewController.xib in Resources */,
 				157E36D41BF1D95B00CEFABA /* UMSLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1565,6 +1713,7 @@
 				157E36CB1BF1D95B00CEFABA /* SVProgressHUD.m in Sources */,
 				157E36BC1BF1D95B00CEFABA /* MASCompositeConstraint.m in Sources */,
 				157E37151BF1D95B00CEFABA /* JsonResponseHandler.m in Sources */,
+				DDF086CD1C0B3712007F4AF4 /* TXProductViewController.m in Sources */,
 				157E368C1BF1D95B00CEFABA /* AFHTTPRequestOperation.m in Sources */,
 				157E37111BF1D95B00CEFABA /* AFUploadFileManager.m in Sources */,
 				157E37051BF1D95B00CEFABA /* ZUtilsApplication.m in Sources */,
@@ -1592,6 +1741,7 @@
 				157E36F51BF1D95B00CEFABA /* TXTextField.m in Sources */,
 				157E37121BF1D95B00CEFABA /* AsyncTask.m in Sources */,
 				157E37021BF1D95B00CEFABA /* UIStrikeLabel.m in Sources */,
+				DDF086E71C0B3832007F4AF4 /* TXLoginViewController.m in Sources */,
 				157E37091BF1D95B00CEFABA /* ZUtilsImage.m in Sources */,
 				157E38311BF1EE0600CEFABA /* RoundButton.m in Sources */,
 				157E36A21BF1D95B00CEFABA /* IQKeyboardManager.m in Sources */,
@@ -1636,6 +1786,7 @@
 				157E38231BF1EE0600CEFABA /* LaunchViewController.m in Sources */,
 				157E37131BF1D95B00CEFABA /* Entity.m in Sources */,
 				157E37101BF1D95B00CEFABA /* AFAppDotNetAPIClient.m in Sources */,
+				DDF086C81C0B3703007F4AF4 /* TXHomeViewController.m in Sources */,
 				157E36FB1BF1D95B00CEFABA /* GTMBase64.m in Sources */,
 				157E38301BF1EE0600CEFABA /* MIntroduceView.m in Sources */,
 				157E382E1BF1EE0600CEFABA /* RegionService.m in Sources */,
@@ -1652,11 +1803,13 @@
 				157E36DE1BF1D95B00CEFABA /* VerticallyAlignedLabel.m in Sources */,
 				157E36B61BF1D95B00CEFABA /* SBJsonStreamWriterAccumulator.m in Sources */,
 				157E36C81BF1D95B00CEFABA /* ChineseString.m in Sources */,
+				DDF086E11C0B37E2007F4AF4 /* TXMineViewController.m in Sources */,
 				157E36FD1BF1D95B00CEFABA /* NSString+URL.m in Sources */,
 				157E36A51BF1D95B00CEFABA /* IQTitleBarButtonItem.m in Sources */,
 				157E36EE1BF1D95B00CEFABA /* TXCoverView.m in Sources */,
 				157E36C31BF1D95B00CEFABA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				157E37041BF1D95B00CEFABA /* ZLocationManager.m in Sources */,
+				DDF086DC1C0B37D8007F4AF4 /* TXStoreViewController.m in Sources */,
 				157E36E21BF1D95B00CEFABA /* UIImage+AspectFit.m in Sources */,
 				157E36F21BF1D95B00CEFABA /* TXLimitTextView.m in Sources */,
 				157E369F1BF1D95B00CEFABA /* EGORefreshTableHeaderView.m in Sources */,
@@ -1668,6 +1821,7 @@
 				157E37081BF1D95B00CEFABA /* ZUtilsFile.m in Sources */,
 				157E36F61BF1D95B00CEFABA /* TXVerifyCodeButton.m in Sources */,
 				157E36FE1BF1D95B00CEFABA /* UIButton+ZUtils.m in Sources */,
+				DDF086D71C0B37C8007F4AF4 /* TXActivityViewController.m in Sources */,
 				157E38261BF1EE0600CEFABA /* TXNavigationController.m in Sources */,
 				157E371C1BF1D95B00CEFABA /* Paging.m in Sources */,
 				157E36F91BF1D95B00CEFABA /* UIPlaceHolderTextView.m in Sources */,
@@ -1793,6 +1947,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/3rd/BaiduApi",
 					"$(PROJECT_DIR)/3rd/Umeng/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/3rd/BaiduMap_IOSSDK_v2.9.1_Lib",
 				);
 				GCC_PREFIX_HEADER = "Meiye/Meiye-Prefix.pch";
 				INFOPLIST_FILE = Meiye/Info.plist;
@@ -1822,6 +1977,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/3rd/BaiduApi",
 					"$(PROJECT_DIR)/3rd/Umeng/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/3rd/BaiduMap_IOSSDK_v2.9.1_Lib",
 				);
 				GCC_PREFIX_HEADER = "Meiye/Meiye-Prefix.pch";
 				INFOPLIST_FILE = Meiye/Info.plist;
