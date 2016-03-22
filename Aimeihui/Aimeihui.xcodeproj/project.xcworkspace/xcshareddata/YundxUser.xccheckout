@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F161DBF6-7B8B-4B8A-AB1F-22D89FD3086D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YundxUser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F5F001C385A5E7F897ADD4819C4D0B730C540949</key>
+		<string>https://github.com/tlsion/Yundongxi.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YundxUser/YundxUser.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F5F001C385A5E7F897ADD4819C4D0B730C540949</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tlsion/Yundongxi.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F5F001C385A5E7F897ADD4819C4D0B730C540949</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F5F001C385A5E7F897ADD4819C4D0B730C540949</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Yundongxi</string>
+		</dict>
+	</array>
+</dict>
+</plist>

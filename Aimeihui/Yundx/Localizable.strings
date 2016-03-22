@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  TinyShop
+
+  Created by zhwx on 15/5/19.
+  Copyright (c) 2015年 zhenwanxiang. All rights reserved.
+*/
+
+//测试服务器地址
+
+"Service_Api_URL"="http://180.169.105.245:9009/FreightApp";
+"Service_Mp_URL"="http://180.169.105.245:9006";
+
+//线上服务器地址
+//"Service_Api_URL"="http://api.yundx.com/FreightApp";
+//"Service_Mp_URL"="http://mp.yundx.com";
+
+// AFAppDotNetAPIClient.h 的地址也需要修改
